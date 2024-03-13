@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main> 
+     <input id="input" type="number">
+
+     <button onclick="yam()">find me</button> <br><br><br><br><br><br>
+
+
+
+
+     <input id="input1" type="number">
+     <input id="input2" type="number">
+
+     <button onclick="okey()">tag me</button>
+
+    </main>
+</body>
+</html>
+
+
+<script>
+ 
+ 
+ let input = document.getElementById('input')
+
+ function yam(){
+    if(input.value >= 18){
+        alert('yes')
+    }else{
+        alert('nope')
+    }
+
+ }
+
+
+
+ //let input1 = input1
+ //let input2 = input2
+
+
+ let input1 = document.getElementById("input1")
+ let input2 = document.getElementById("input2")
+
+ function okey(){
+   if(input1.value === input2.value){
+    alert('correct')
+   }else{
+    alert('wrong')
+   }
+   
+ }
+
+
+</script>
